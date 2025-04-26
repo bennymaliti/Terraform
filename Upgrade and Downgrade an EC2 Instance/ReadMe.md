@@ -114,8 +114,27 @@ t2.micro which contains 1vCPU, 1GiB memory and 6 CPU credits/hour while t2.mediu
 8. Approve by entering yes.  
 9. ![t2micro status](https://github.com/user-attachments/assets/7d9d67b8-0157-4c40-be5d-a16579f49bbb)
 10. Below is the EC2 status change from t2.micro to t2.medium  
-11. ![ec2medium](https://github.com/user-attachments/assets/df7a5f40-f159-4d5e-b9f8-6102ed575c75)
+ ![ec2medium](https://github.com/user-attachments/assets/df7a5f40-f159-4d5e-b9f8-6102ed575c75)
 
+### Step 9: Delete AWS Resources
+- To delete the resources, open Terminal again.
+- Run the following command to delete all the resources: **terraform destroy**
+- Approve by entering yes
+![terraform destroy](https://github.com/user-attachments/assets/18f33b22-6959-410f-b7c9-527faf5353d7)
+- Once complete, the Terminal will display "**Destroy complete! Resources: xx destroyed**
+- ![destroy complete](https://github.com/user-attachments/assets/8834e894-0720-431d-929b-d0b552853014)
+
+## Conclusion
+In this project, 
+- I created a variables.tf and terraform.tfvars files.  
+- Created the main.tf and output.tf files
+- Launched EC2 instances using Terraform
+- Executed Terraform configuration commands to create resources.
+- Checked all resources created by opening the AWS Management Console.
+- Upgraded and Downgraded the EC2 Instance type
+- Deleted all the resources
+
+  
 
 
 
