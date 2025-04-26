@@ -43,3 +43,5 @@ This project guides through the steps on how to upgrade and downgrade the EC2 in
 9. Note down the location, as we will use the same location.
 10. In Visual Studio, click on the first icon **Explorer** on the left sidebar.
 11. Click on **Open Folder** and navigate to the location of folder task_042025  
+![vs code open folder](https://github.com/user-attachments/assets/4d02c226-cdda-4d24-9fcd-d31cadbe5045)
+
