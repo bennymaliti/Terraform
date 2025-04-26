@@ -39,9 +39,10 @@ This project guides through the steps on how to upgrade and downgrade the EC2 in
 5. Once the terminal is ready, navigate to the Desktop: cd Desktop
 6. Create a new folder by running: mkdir task_042025
 7. Change the present working directory to to the newly create by running: cd task_042025
-8. Get the location of the current working directory by running : pwd
-9. Note down the location, as we will use the same location.
-10. In Visual Studio, click on the first icon **Explorer** on the left sidebar.
-11. Click on **Open Folder** and navigate to the location of folder task_042025  
+8. ![mkdir vscode](https://github.com/user-attachments/assets/a1cc54f7-f9c8-43ec-8855-73965c2e23a0)
+9. Get the location of the current working directory by running : pwd
+10. Note down the location, as we will use the same location.
+11. In Visual Studio, click on the first icon **Explorer** on the left sidebar.
+12. Click on **Open Folder** and navigate to the location of folder task_042025  
 ![vs code open folder](https://github.com/user-attachments/assets/4d02c226-cdda-4d24-9fcd-d31cadbe5045)
 
