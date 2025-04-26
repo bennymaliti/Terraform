@@ -85,6 +85,40 @@ In this step, we will create an output.tf file where we will add details of the 
 - ![terminal vs code](https://github.com/user-attachments/assets/bcc107ec-6259-4a92-a26a-8ff33a79c58d)
 - If you are getting an output as command not found: terraform, this means terraform has not been installed on your system, to Install Terraform, follow the official guide [Download Terraform](https://terraform.io/downloads.html)
 
+### Step 6: Apply Terraform Configurations
+- Initialise Terraform by running the following command : **terafform init**  
+- ![terraform init command](https://github.com/user-attachments/assets/65800c78-ecb6-4288-8f78-30c2cb22d19f)
+- Terraform init checks all the plugin dependencies and downloads them if required, this will then create a deployment plan.  
+- To generate the action plans, run the following command : **terraform plan**  
+- ![terraform plan](https://github.com/user-attachments/assets/428fe243-cd7b-4db3-814a-b8907bd4f749)
+- To create all the resources declared in main.tf configuration file, run the command : **terraform apply**
+- Approve the creation of all resources by entering : **yes**  
+- ![terrafform apply](https://github.com/user-attachments/assets/26d91cbd-0939-40f5-8e43-23db4d56b218)
+
+### Step 7: Check the resources in AWS Console  
+1. Make sure you are in the US East (N.Virginia) us-east-1 region.
+2. Navigate to EC2 by clicking on Services on the top, then click on EC2 in the Compute section.
+3. Click on the Instances on the left navigation panel. You will then see the Instance has been created successfully.
+4. Wait for the status of the EC2 Instance to change to **Running** and the health check status to `check passed.`
+
+### Step 8: Upgrading Instance type from t2.micro to t2.medium  
+In this section, we will change the instance type from t2.micro to t2.medium.  
+t2.micro which contains 1vCPU, 1GiB memory and 6 CPU credits/hour while t2.medium contains 2 vCPUs, 4GiB memory, and 24 CPU credits/hour.  
+1. In Visual Studio Code, open main.tf file  
+2. In EC2 code section, update the instance type from t2.micro to t2.medium  
+3. ![t2micro](https://github.com/user-attachments/assets/784c8a7c-c1d6-4e16-8cde-af3e471088fa)
+4. Save the file by pressing Ctrl + S or File - Save.  
+5. ![t2micro status](https://github.com/user-attachments/assets/f4c3dfed-7b74-4e15-a996-0e5a6e0ae30e)
+6. To modify the instance, type the following command in the terminal : terraform apply  
+7. ![terraform apply t2 medium](https://github.com/user-attachments/assets/f16c5072-03de-40b4-ac1a-61c2b8247810)
+8. Approve by entering yes.  
+9. ![t2micro status](https://github.com/user-attachments/assets/7d9d67b8-0157-4c40-be5d-a16579f49bbb)
+10. Below is the EC2 status change from t2.micro to t2.medium  
+11. ![ec2medium](https://github.com/user-attachments/assets/df7a5f40-f159-4d5e-b9f8-6102ed575c75)
+
+
+
+
 
 
 
