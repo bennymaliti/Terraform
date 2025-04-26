@@ -14,3 +14,4 @@ Knowledge of AWS Services
 This project guides through the steps on how to upgrade and downgrade the EC2 instance type when the traffic changes using Terraform.  
 
 ## Architecture Diagram: 
+https://github.com/bennymaliti/Terraform/blob/main/Upgrade%20and%20Downgrade%20an%20EC2%20Instance/terraform%20architecture%20diagram%20ec2%20upgrade%20downgrade.png
