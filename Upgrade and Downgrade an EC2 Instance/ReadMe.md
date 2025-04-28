@@ -2,7 +2,7 @@
 - Provision infrastructure on AWS using Terraform commands and configurations.  
 - Use Terraform attributes like variables, outputs and providers.  
 - Gain Hands-On experience of Terraform workflow commands i.e., terraform init, terraform plan, terraform apply, and terraform destroy.  
-- Differentiate between **AWS CloudFormation** and **HashiCorp Terraform.**  
+
 
 ## Prerequsites  
 Knowledge of AWS Services  
