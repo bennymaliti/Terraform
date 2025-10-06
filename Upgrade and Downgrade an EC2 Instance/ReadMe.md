@@ -11,7 +11,7 @@ Knowledge of AWS Services
 - Basic Terraform commands.  
 
 ## Scenario:  
-This project guides through the steps on how to upgrade and downgrade the EC2 instance type when the traffic changes using Terraform.  
+This project guides through the steps on how to upgrade and downgrade an EC2 instance type when the traffic changes using Terraform.  
 
 ## Architecture Diagram: 
 
@@ -133,12 +133,5 @@ In this project,
 - Checked all resources created by opening the AWS Management Console.
 - Upgraded and Downgraded the EC2 Instance type
 - Deleted all the resources
-
-  
-
-
-
-
-
 
 
